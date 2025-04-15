@@ -815,7 +815,7 @@ const GamePage = () => {
                   <div className="w-full min-h-[50px] flex justify-between items-center border-b-[1.5px] border-[#ecf0f5] font-[interSemibold] text-[16px] pl-[15px] pr-[5px] text-white ">
                     <div>In-Game Chat</div>
                     <div
-                      className="bg-[#F1F5F9] hover:bg-[#E2E3E5] cursor-pointer px-[15px] h-[calc(100%-10px)] rounded-lg flex md:hidden lg:hidden justify-center items-center"
+                      className="bg-[#F1F5F9] hover:bg-[#E2E3E5] text-black cursor-pointer px-[15px] h-[calc(100%-10px)] rounded-lg flex md:hidden lg:hidden justify-center items-center"
                       onClick={() => {
                         setExpand(!expand);
                       }}
