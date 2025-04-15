@@ -345,7 +345,7 @@ const GamePage = () => {
             }
           >
             <div className="w-full p-[30px] py-[25px] bg-[white] flex flex-col justify-center items-center h-auto">
-              <div className="text-[20px] font-[interBold] w-[75%] flex justify-center items-center">
+              <div className="text-[20px] font-[interBold] w-[75%] flex justify-center items-center text-black">
                 Share with your friends
               </div>
               <div
@@ -824,7 +824,7 @@ const GamePage = () => {
                         width={16}
                         height={16}
                         strokeWidth={2.5}
-                        className="mr-[7px]"
+                        className="mr-[7px] text-black"
                       />{" "}
                       Invite
                     </div>
